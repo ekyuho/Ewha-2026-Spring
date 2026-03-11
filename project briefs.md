@@ -16,7 +16,7 @@
 | [13](#team-13) | Semicolone; |  |  |
 | [14](#team-14) | def |  |  |
 | [15](#team-15) | 햄부기 |  |  |
-| [16](#team-16) | 퓨터 |  |  |
+| [16](#team-16) | 퓨터 | 산학트랙 | CharacterAI |
 | [17](#team-17) | SPY |  |  |
 | [18](#team-18) | 디바트(deep-art) |  |  |
 | [19](#team-19) | Logue |  |  |
@@ -360,7 +360,7 @@
 | 사용 기술 | LLM API, RAG (벡터 DB), Reddit/YouTube API, Rive 애니메이션, Next.js, FastAPI |
 | 기대 효과 | 캐릭터와의 정서적 유대감 형성으로 학습 지속률 향상, 최신 슬랭 기반 실용 영어 습득 |
 | GitHub Repo | [https://github.com/puter8/capstone](https://github.com/puter8/capstone) |
-| Team Ground Rule | [Team Ground Rule](Team_Ground_Rule.md) |
+| Team Ground Rule | [Team Ground Rule](https://github.com/puter8/Ewha-2026-Spring/blob/main/Team_Ground_Rule.md) |
 | 최종수정일 | 2026.03.11 |
 
 [↑ 목록으로](#2026-spring-전체-프로젝트-리스트)
