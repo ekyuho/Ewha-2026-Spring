@@ -16,7 +16,7 @@
 | [13](#team-13) | Semicolone; | 산학 | AI 자서전 |
 | [14](#team-14) | def | 연구 | Agent AI 추론을 위한 메모리 효율 최적화 |
 | [15](#team-15) | 햄부기 | 연구 | Split-Computing Vision Inference System |
-| [16](#team-16) | 퓨터 | 산학|  CharacterAI |
+| [16](#team-16) | 퓨터 | 산학|  감정 MATRIX 기반 사용자 맞춤형 AI 영어 회화 학습 서비스 |
 | [17](#team-17) | SPY | 산학 | AI 기반 음악 추천 어플리케이션 |
 | [18](#team-18) | 디바트(deep-art) |  |  |
 | [19](#team-19) | Logue |  |  |
@@ -351,7 +351,7 @@
 
 | 항목 | 내용 |
 |------|------|
-| 프로젝트명 | CharacterAI  |
+| 프로젝트명 | 감정 MATRIX 기반 사용자 맞춤형 AI 영어 회화 학습 서비스  |
 | 트랙 | 산학 |
 | 팀명 | 퓨터 |
 | 팀구성 | 김민주, 백은혜, 이찬희, 최윤서  |
