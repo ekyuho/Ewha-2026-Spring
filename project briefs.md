@@ -448,10 +448,12 @@
 | 고객 (누구를 위해) | AI에 대한 지식이 부족한 전시 관람객 — 특히 AI의 결과를 맹목적으로 수용하거나, 기술에 심리적 거리감을 가지고 있는 사람들 (연령·성별 무관) |
 | Pain Point (해결할 문제) | AI의 의사결정이 확대되고 있는 현 사회에서, AI의 결과를 무비판적으로 수용하는 태도는 문제가 된다. 많은 이들은 AI의 결과를 ‘정답’으로 받아들이지만, 실제로 AI는 세계를 완벽히 설명하는 존재가 아니라 수많은 가능성 중에서 확률이 가장 높은 선택지를 제시할 뿐이다. 이와 더불어, AI의 내부 작동 원리를 외부에서 알 수 없는 구조, 즉 블랙박스 문제 역시 이해를 가로막는 요인으로 작용한다. 기존의 XAI(Explainable AI, 설명 가능한 AI)는 이러한 과정을 설명하고자 하지만, 주로 전공자를 위한 복잡한 수치나 그래프 형태로 제공되어 일반 대중이 이해하기에는 한계가 있다.<br><br>본 작품은 미디어아트를 통해 이 두 가지 문제를 동시에 다룬다. AI가 확률적으로 경로를 선택하는 과정과, 그 확률에 영향을 미친 요인들을 직관적이고 시각적으로 표현 가능한 형태로 재구성함으로써, 대중이 심리적 부담 없이 AI의 원리를 이해하고 받아들일 수 있도록 진입 장벽을 낮춘다. |
 | 사용 기술 | **LSTM** (Long Short-Term Memory): 시계열 GPS 데이터를 학습하여 다음 이동 경로를 예측.<br>**SHAP** (SHapley Additive exPlanations): 각 환경 변수(풍향·풍속·기류)가 모델 예측에 기여한 정도를 정량화하는 XAI 기법. 변수별 기여도를 시각화 레이어에 연동.<br>**Boids 알고리즘**: 군집 행동 시뮬레이션 기법. AI 예측 결과를 자연스러운 군집 움직임으로 표현.<br>**FastAPI**: AI 모델 서버(Python)와 렌더링 엔진(Unity) 간 실시간 양방향 데이터 통신을 담당하는 API 프레임워크.<br>**Unity VFX Graph**: 수천 개의 파티클을 실시간으로 렌더링. |
+| 개발 환경 | **OS**: Windows 11 / macOS<br>**Python**: 3.10+<br>**Unity**: 2022 LTS (VFX Graph 패키지)<br>**IDE**: VS Code (Python), Unity Editor (C#) |
+| 사용 소프트웨어 URL | **AI / ML**<br>- PyTorch: https://pytorch.org/<br>- SHAP: https://github.com/shap/shap<br>- filterpy (Kalman): https://github.com/rlabbe/filterpy<br>- SciPy (Spline): https://scipy.org/<br>**백엔드**<br>- FastAPI: https://fastapi.tiangolo.com/<br>**렌더링**<br>- Unity VFX Graph: https://docs.unity3d.com/Packages/com.unity.visualeffectgraph@latest |
 | 기대 효과 | 첫째, 예술적 시각화 도구가 일반 대중의 AI 리터러시 향상에 미치는 효과를 실증한다. 관람객을 대상으로 전시 체험 전후 설문을 통해 AI 이해도 변화를 측정하고, 미디어아트의 AI 교육 도구로서의 유효성을 검증한다.<br>둘째, XAI 시각화의 새로운 접근 방식을 제안한다. 수치 중심의 기존 XAI 출력 방식을 넘어, 색·밝기·군집 움직임 등 비전공자도 직관적으로 읽을 수 있는 시각화 표현 방식을 탐구한다.<br>셋째, 인터랙티브 미디어아트와 XAI의 융합 가능성을 실험적으로 제시한다. 관객이 변수를 직접 조작하고 AI의 반응을 실시간으로 확인하는 구조를 통해, 단순 관람을 넘어 AI 의사결정 과정에 능동적으로 개입하는 경험을 설계한다. |
 | GitHub Repo  | https://github.com/ewha-deep-art/bird-xai |
 | Team Ground Rule | https://github.com/ewha-deep-art/deep-art/blob/main/Team_Ground_Rule.md |
-| 최종수정일 | 2026.04.15 |
+| 최종수정일 | 2026.04.16 |
 [↑ 목록으로](#2026-spring-전체-프로젝트-리스트)
 
 ---
