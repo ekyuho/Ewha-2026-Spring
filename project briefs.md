@@ -16,7 +16,7 @@
 | [13](#team-13) | Semicolone; | 산학 | AI 질문을 ‘기억되는 인사이트’로 바꿔주는 개인 지식 관리 플랫폼 |
 | [14](#team-14) | def | 연구 | 로컬 LLM 기반 Coding Agent에서 Frequently Accessed Code 블록의 KV Cache 재사용을 통한 Token 소비 최적화 |
 | [15](#team-15) | 햄부기 | 연구 | 엣지 디바이스 배포를 위한 Vision Foundation Model의 2:4 구조적 희소성 성능 분석 및 추론 파이프라인 구축 |
-| [16](#team-16) | 퓨터 | 산학| 성향 변화형 AI 캐릭터 기반 영어 회화 학습 서비스 |
+| [16](#team-16) | 퓨터 | 산학 | 대화 진행에 따라 성격이 변하는 AI 캐릭터와의 정서적 유대감 기반 영어 회화 학습 지속 서비스 |
 | [17](#team-17) | SPY | 산학 | Moni: AI 기반 소비 예측과 맞춤형 챌린지를 결합한 개인화 소비 코칭 서비스 |
 | [18](#team-18) | 디바트(deep-art) | 연구 | 철새 이동 데이터 기반 XAI 인터랙티브 미디어아트 설치 작품: AI 의사결정 과정의 대중적 이해 증진 |
 | [19](#team-19) | Logue | 산학 | 자연어 기반 데이터 분석 질의를 통해 조직의 데이터 접근성과 의사결정 속도를 향상시키는 AI 기반 데이터 분석 웹 인터페이스, Logue |
@@ -389,22 +389,22 @@
 
 | 항목 | 내용 |
 |------|------|
-| 프로젝트명 | 성향 변화형 AI 캐릭터 기반 영어 회화 학습 서비스  |
-| 서비스명(브랜드) | |
+| 프로젝트명 | 대화 진행에 따라 성격이 변하는 AI 캐릭터와의 정서적 유대감 기반 영어 회화 학습 지속 서비스 |
+| 서비스명(브랜드) | CharaShift |
 | 트랙 | 산학 |
 | 팀명 | 퓨터 |
-| 팀구성 | 김민주, 백은혜, 이찬희, 최윤서  |
+| 팀구성 | 김민주, 백은혜, 이찬희, 최윤서 |
 | 팀지도교수 | 심재형 |
-| 무엇을 만들고자 하는가 | 사용자와 대화할수록 성격이 변화하는 AI 캐릭터 기반 영어 회화 학습 서비스 |
-| 고객 (누구를 위해) | 영어 회화를 재미있게 꾸준히 학습하고 싶은 10~20대 사용자 |
-| Pain Point (해결할 문제) | 기존 영어 학습 앱은 고정된 응답으로 흥미가 금방 떨어지고 지속 사용이 어려움 |
-| 사용 기술 | LLM API, RAG (벡터 DB), Reddit/YouTube API, Rive 애니메이션, Next.js, FastAPI |
-| 개발환경 | 1. PC (Windows, Mac) 및 Mobile 웹 브라우저<br>2. FE-Next.js 14, Tailwind CSS<br>3. BE-Spring Boot 3 (Java), FastAPI (Python)<br>4. DB-PostgreSQL, Pinecone, Supabase<br>5. Rive, Zustand, JPA / Hibernate, LangChain, PRAW (Reddit), YouTube Data API<br>6. LLM: OpenAI (GPT-4o) / Embedding: OpenAI (text-embedding-3-small)
-| 사용하는 소프트웨어 URL | 1. PC (Windows, Mac) 및 Mobile 웹 브라우저<br>2. FE-Next.js 14, Tailwind CSS<br>3. BE-Spring Boot 3 (Java), FastAPI (Python)<br>4. DB-PostgreSQL, Pinecone, Supabase<br>5. Rive, Zustand, JPA / Hibernate, LangChain, PRAW (Reddit), YouTube Data API<br>6. LLM: OpenAI (GPT-4o) / Embedding: OpenAI (text-embedding-3-small)
-| 기대 효과 | 캐릭터와의 정서적 유대감 형성으로 학습 지속률 향상, 최신 슬랭 기반 실용 영어 습득 |
+| 무엇을 만들고자 하는가 | 사용자의 발화 스타일을 5축(격식도·에너지·친밀도·유머·탐구심)으로 분석하고, 그 결과를 바탕으로 AI 캐릭터의 성격이 대화마다 실시간으로 변화하는 영어 회화 학습 웹 서비스. 단순 맞춤형 응답이 아니라, 대화가 쌓일수록 캐릭터와의 정서적 유대감이 형성되어 학습을 자연스럽게 지속하게 만드는 것이 핵심 목표 |
+| 고객 (누구를 위해) | 영어 회화를 꾸준히 지속하지 못하는 20~30대 중급(B1 이상) 학습자. 기존 앱의 획일적 응답에 흥미를 잃은 사용자 |
+| Pain Point (해결할 문제) | 기존 영어 학습 앱은 응답이 고정되어 있어 사용자가 금방 흥미를 잃고 이탈함. AI가 사용자의 말투와 감정을 반영하지 못해 "나에게 맞춘 대화"가 아닌 "정해진 챗봇 응답"처럼 느껴지는 문제 |
+| 사용 기술 | GPT-4o, Supabase (Auth · RLS · pgvector), Reddit PRAW, Canvas2D + Superformula, Next.js 14, FastAPI, GitHub Actions |
+| 개발환경 | 1. PC (Windows, Mac) 및 Mobile 웹 브라우저<br>2. FE - Next.js 14, Tailwind CSS, Zustand, Canvas2D<br>3. BE - FastAPI (Python)<br>4. DB - Supabase (PostgreSQL · Auth · RLS · pgvector)<br>5. LLM - OpenAI GPT-4o / Embedding - text-embedding-3-small<br>6. 배포 - Vercel (FE), Railway (BE) |
+| 사용하는 소프트웨어 URL | 1. Next.js 14: https://nextjs.org<br>2. FastAPI: https://fastapi.tiangolo.com<br>3. Supabase: https://supabase.com<br>4. OpenAI GPT-4o: https://openai.com<br>5. Vercel: https://vercel.com<br>6. Railway: https://railway.app |
+| 기대 효과 | AI 캐릭터와의 정서적 유대감 형성으로 학습 지속률 향상 / 발화 스타일 분석 기반 개인화 대화로 몰입도 증가 / 최신 슬랭 RAG 파이프라인으로 실용 영어 학습 |
 | GitHub Repo | [https://github.com/puter8/capstone](https://github.com/puter8/capstone) |
-| Team Ground Rule | https://github.com/puter8/capstone/blob/main/Team_Ground_Rule.md |
-| 최종수정일 | 2026.03.13 |
+| Team Ground Rule | https://github.com/puter8/capstone/blob/main/docs/Team_Ground_Rule.md |
+| 최종수정일 | 2026.04.27 |
 
 [↑ 목록으로](#2026-spring-전체-프로젝트-리스트)
 
