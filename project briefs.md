@@ -15,7 +15,7 @@
 | [12](#team-12) | 404 | 산학 | 여성 1인 여행자를 위한 DB 기반 가이드맵 및 안전 동행 매칭 서비스 |
 | [13](#team-13) | Semicolone; | 산학 | AI 질문을 ‘기억되는 인사이트’로 바꿔주는 개인 지식 관리 플랫폼 |
 | [14](#team-14) | def | 연구 | 로컬 환경에서의 Agentic AI 병목 분석 및 성능 최적화: Apple silicon 온디바이스를 중심으로 |
-| [15](#team-15) | 햄부기 | 연구 | 엣지 디바이스 배포를 위한 Vision Foundation Model의 2:4 구조적 희소성 성능 분석 및 추론 파이프라인 구축 |
+| [15](#team-15) | 햄부기 | 연구 | 2:4 Structured Sparsity for Faster ViT Inference on Edge Devices: TensorRT Fusion and Speed Bottlenecks |
 | [16](#team-16) | 퓨터 | 산학| 성향 변화형 AI 캐릭터 기반 영어 회화 학습 서비스 |
 | [17](#team-17) | SPY | 산학 | Moni: AI 기반 소비 예측과 맞춤형 챌린지를 결합한 개인화 소비 코칭 서비스 |
 | [18](#team-18) | 디바트(deep-art) | 연구 | 멀티모달 AI 기반 배리어프리 오디오 도슨트 자동 생성 서비스 |
